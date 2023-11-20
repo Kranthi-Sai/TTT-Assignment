@@ -1,0 +1,54 @@
+.Content {
+  width: 100%;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left {
+  font-size: 18px;
+  font-weight: 500;
+}
+span.author {
+  color: rgb(73, 129, 197);
+}
+span.name {
+  align-items: center;
+  color: #00070b;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.right span {
+  font-size: 15px;
+  color: #110101;
+}
+
+@media screen and (max-width: 780px) {
+  .Content {
+    width: 90%;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .left {
+    font-size: 5px;
+    font-weight: 500;
+    padding-right: 0px;
+  }
+  .right span {
+    font-size: 10px;
+    color: #110101;
+  }
+}

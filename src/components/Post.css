@@ -1,0 +1,41 @@
+#blog-header {
+  padding-left: 10px;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  width: 140px;
+  margin-top: 10px;
+}
+#blog-vacant {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 100%;
+  bottom: -20px;
+}
+.post {
+  color: rgb(108, 108, 250);
+  font-weight: 500;
+  font-size: 25px;
+}
+.posts {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 780px) {
+  .posts {
+    margin: 0px;
+    padding: 0px;
+  }
+  .post {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  #blog-header {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 1px;
+    justify-content: center;
+    width: 140px;
+    margin-top: 10px;
+  }
+}
