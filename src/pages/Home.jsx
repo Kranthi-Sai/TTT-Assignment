@@ -54,21 +54,18 @@ export const Home = () => {
 
   return (
     <>
-     
-        <Top />
-     
-      
-        {details.map((details) => (
-          <ProfileDetails key={details.name} details={details} />
-        ))}
-     
+      <Top />
+
+      {details.map((details) => (
+        <ProfileDetails key={details.name} details={details} />
+      ))}
+
       <main>
         <Post />
 
-          {card.map((card) => (
-            <Card key={card.id} card={card} />
-          ))}
-        
+        {card.map((card) => (
+          <Card key={card.id} card={card} />
+        ))}
       </main>
     </>
   );
